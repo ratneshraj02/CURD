@@ -1,0 +1,20 @@
+{
+  "name": "02-express",
+  "version": "1.0.0",
+  "description": "This is the express js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev" :"nodemon index.js"
+    
+  },
+  "author": "ratnesh raj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
