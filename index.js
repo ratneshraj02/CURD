@@ -1,11 +1,13 @@
 import express from 'express';
+import dotenv from 'dotenv';
+dotenv.config();
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json()); // it is accept json data from frontend side
 
-// Tea array 
-let teaData = [];
+    // Tea array 
+    let teaData = [];
 let nextId = 1;
 
 //add a new tea

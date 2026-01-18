@@ -6,12 +6,12 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev" :"nodemon index.js"
-    
+    "dev": "nodemon index.js"
   },
   "author": "ratnesh raj",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1"
   },
   "devDependencies": {
